@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">material </string>
+    <string name="tab_text_1">翻译</string>
+    <string name="tab_text_3">关于</string>
+    <string name="tab_text_2">卡片</string>
+    <string name="tab_text_4">滑动</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">Share</string>
+    <string name="upload">Upload</string>
+    <string name="copy">Copy</string>
+    <string name="print">Print this page</string>
+    <string name="call">Call</string>
+    <string name="help">Help</string>
+    <string name="bottomsheet">BottomSheet Sample</string>
+</resources>

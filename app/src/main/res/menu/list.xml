@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/share" android:title="分享"/>
+    <item android:id="@+id/upload"  android:title="@string/upload"/>
+    <item android:id="@+id/call"  android:title="添加到收藏"/>
+    <group android:id="@android:id/empty" android:visible="false">
+        <item android:id="@+id/help" android:icon="@drawable/perm_group_system_tools" android:title="setting"/>
+    </group>
+</menu>

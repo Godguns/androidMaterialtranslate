@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#424242"
+   >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <com.yalantis.phoenix.PullToRefreshView
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:orientation="vertical"
+
+
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+
+            android:layout_width="462dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <scut.carson_ho.searchview.SearchView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/edit"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        app:textSizeSearch="5dp"
+                        app:textColorSearch="#3F51B5"
+                        app:textHintSearch="你顺手挽住火焰，化作漫天大雪！"
+
+                        app:searchBlockColor="#ffffff"
+                        />
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    </com.yalantis.phoenix.PullToRefreshView>
+</LinearLayout>
+</LinearLayout>

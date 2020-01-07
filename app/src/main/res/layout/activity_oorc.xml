@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:elevation="10dp"
+        app:diagonal_angle="20"
+        app:diagonal_position="bottom"
+        app:diagonal_direction="right">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg3"
+            />
+
+    </com.github.florent37.diagonallayout.DiagonalLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!--<Button-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@color/red"-->
+        <!--android:text="拍照翻译"-->
+        <!--android:onClick="ocrClick"-->
+        <!--android:id="@+id/bt"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@color/red"-->
+        <!--android:text="文字提取"-->
+        <!--android:onClick="ocrClick"-->
+        <!--android:id="@+id/bt1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@color/red"-->
+        <!--android:text="图像修复"-->
+        <!--android:onClick="ocrClick"-->
+        <!--android:id="@+id/bt2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="0dp"
+
+            app:cardBackgroundColor="#ffffff"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="35dp"
+                android:orientation="vertical">
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/item_goods_price"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="20dp"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginRight="10dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:textSize="18dp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="Use the Theme combo box above the layout to choose a different layout, or fix the theme style references"
+                    android:textColor="#333333"
+                    android:textSize="14dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/pos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:layout_margin="10dp"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="14dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="10dp"
+                android:text="10月30日 11:11"
+                android:textColor="#CCCCCC"
+                android:textSize="14dp"/>
+            <Button
+                android:onClick="ocrClick"
+                android:text="拍照翻译"
+                android:id="@+id/bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

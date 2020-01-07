@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".huaci">
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/show"
+        android:orientation="vertical"
+        android:padding="5dp"
+
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical">
+          <LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/nice_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+<TextView
+    android:clickable="true"
+    android:id="@+id/copy"
+    android:layout_marginLeft="80dp"
+    android:text="复制到粘贴板"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+          </LinearLayout>
+            <TextView
+                android:id="@+id/yuanci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Is the correct theme chosen for this layout?"
+                android:textColor="#000000"
+                android:textSize="14dp"/>
+
+
+            <TextView
+                android:id="@+id/fyjg"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:textColor="#333333"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- A CardView that contains a TextView -->
+    <!--<androidx.cardview.widget.CardView-->
+        <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/card_view"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--card_view:cardCornerRadius="4dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/fyjg"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+    <!--</androidx.cardview.widget.CardView>-->
+
+</LinearLayout>
